@@ -21,7 +21,7 @@ class App extends Component {
             <Sidebar />
           </Col>
           <Col className="notesCol">
-            <h2 className="notesText"> Your Notes: // Testing This </h2>
+            <h2 className="notesText"> Your Notes: </h2>
             <Notes />
           </Col>
         </Row>
