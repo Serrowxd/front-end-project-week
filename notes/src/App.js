@@ -2,13 +2,11 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import './App.css';
 
-
 import Sidebar from './components/Sidebar/Sidebar.js';
 import Notes from './components/Notes/Notes.js';
 import CreateNew from './components/CreateNew/CreateNew.js';
 import NoteView from './components/NoteView/NoteView.js';
 import EditNote from './components/EditNote/EditNote.js';
-
 
 class App extends Component {
   render() {
@@ -23,7 +21,7 @@ class App extends Component {
             <Sidebar />
           </Col>
           <Col className="notesCol">
-            <h2 className="notesText"> Your Notes: </h2>
+            <h2 className="notesText"> Your Notes: // Testing This </h2>
             <Notes />
           </Col>
         </Row>
