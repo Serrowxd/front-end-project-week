@@ -1,13 +1,13 @@
 .container {
   max-width: 100%;
-  background: #F3F3F3;
+  background: #f3f3f3;
 }
 
 .sideCol {
   /* max-width: 20%; */
   max-width: 200px;
   padding-right: 220px;
-  background: #D8D8D8;
+  background: #d8d8d8;
 }
 
 .notesCol {

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import { Axios } from 'axios';
+
 import './App.css';
 
 import Sidebar from './components/Sidebar/Sidebar.js';
